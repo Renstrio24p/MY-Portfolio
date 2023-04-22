@@ -1,12 +1,17 @@
 import React from 'react'
 
 // Components
+import Header from './divs/header'
+import Body from './divs/body'
+import Footer from './divs/footer'
 
 
 export default function Page() {
     return (
         <div>
-            <h1>Hello React this is Empty</h1>
+            <Header />
+            <Body />
+            <Footer />
         </div>
     )
 }
